@@ -135,7 +135,7 @@
     <div class="kicker">NOW SHOWING</div>
     <h1 class="title">あなたの<br>観たい映画は？</h1>
     <p class="lead">あなたの好みから、次に観たい一本を。</p>
-    <p class="how">2人の俳優のうち、演技が好きな顔をタップ。<br>選んだ俳優が勝ち残り、<b id="howN">10</b>回の対決で優勝俳優とおすすめ映画が決まります。</p>
+    <p class="how">2人の俳優のうち、演技が好きなほうの俳優をタップ。<br>選んだ俳優が勝ち残り、<b id="howN">10</b>回の対決で優勝俳優とおすすめ映画が決まります。</p>
     <h2 class="sec">出演俳優</h2>
     <p class="hint">横にスワイプして見る</p>
     <div class="gallery" id="gallery"></div>
@@ -146,7 +146,7 @@
       <button data-n="14" onclick="setMode(14)">ロング<br><b>14回</b></button>
     </div>
     <button class="btn gold" onclick="startGame()">はじめる</button>
-    <p class="note">※俳優・映画はすべて架空のサンプルです。</p>
+    <p class="note">※俳優・映画はすべて架空のサンプルです。<br>写真はAIで作った架空の人物です。</p>
   </section>
 
   <section id="game" class="hidden">
@@ -162,7 +162,8 @@
       <div class="vs">VS</div>
       <div class="slot"><button class="actor" id="btnB"></button></div>
     </div>
-    <p class="hint">好きな演技の俳優をタップ</p>
+    <p class="hint">演技が好きなほうの俳優をタップ</p>
+    <p class="note" style="margin-top:6px">※写真はAIで作った架空の人物です。</p>
   </section>
 
   <section id="result" class="hidden">
@@ -180,7 +181,7 @@
       <button class="btn line" onclick="showOnly('start')">回数を変える</button>
       <button class="btn gold" onclick="startGame()">最初からやり直す</button>
     </div>
-    <p class="note">※俳優・映画はすべて架空のサンプルです。</p>
+    <p class="note">※俳優・映画はすべて架空のサンプルです。<br>写真はAIで作った架空の人物です。</p>
   </section>
 
 </div>
